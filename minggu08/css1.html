@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Contoh Internal CSS</title>
+ <!-- penulisan internal css dalam tag head -->
+ <style type="text/css">
+ p{
+ font-family: serif;
+ line-height: 1.75em;
+ font-size: 18px;
+ }
+ i { 
+ font-family: sans;
+ color: orange;
+ }
+ </style>
+</head>
+<body>
+ <!-- penulisan internal css dalam tag body -->
+ <style type="text/css">
+ h2 {
+ font-family: sans;
+ color: #333;
+ }
+ </style>
+ <h2 align="center">Apa itu CSS ?</h2>
+ <p>
+     <i>CSS (Cascade Style Sheet)</i> merupakan sebuah bahasa untuk mengatur tampilan web
+    sehingga terlihat lebih menarik. <br> Penggunaan CSS sudah menjadi hal
+    yang sangat prinsip dalam penyusunan layout web,
+    dengan CSS dapat mengatur layout (tata letak), warna, font, garis, dan lain-lain.<br>
+    <i><b>Internal CSS</i></b>
+    Internal CSS adalah kode CSS yang ditulis di dalam tag style.
+    Internal CSS juga dikenal dengan sebutan <i>Embeded CSS</i>.
+    Seperti namanya, <i>inline CSS</i> adalah kode CSS yang ditulis langsung dalam file HTML.
+    Penulisan kode CSS di HTML dapat dilakukan di dalam tag < style >.
+    Tag tersebut dapat ditulis di dalam tag < head > atau tag < body >.
+    <br>
+    <i><b>Eksternal CSS</b></i>
+    Eksternal CSS adalah kode CSS yang ditulis terpisah dengan kode HTML.<br> Eksternal CSS ditulis disebuah file khusus yang berekstensi .css.
+    Untuk menggunakan CSS tersebut dalam HTML ada beberapa cara memasukkan kode CSS dari berkas eksternal :<br>
+    Pertama menggunakan tag < link > atau menggunakan @import.
+ </p>
+</body>
+</html>
